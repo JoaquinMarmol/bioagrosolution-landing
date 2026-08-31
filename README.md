@@ -1,22 +1,86 @@
-The MIT License (MIT)
+# Green Science — Sitio web
 
-Copyright (c) 2026 Joaquin Marmol (https://codepen.io/joaquinmarmol/pen/bNwvGYa)
-Fork of an original work Untitled (https://codepen.io/joaquinmarmol/pen/GgjxROW)
+Sitio corporativo de **Green Science** (*Living Soil Biotechnology*): bioinsumos agrícolas de origen orgánico microbiano. Bilingüe ES/EN, mobile-first.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## Stack
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+- **Next.js 14** (App Router) + **TypeScript**
+- **Tailwind CSS** con tokens de marca (`tailwind.config.ts`)
+- **next-intl** para i18n (rutas `/es` y `/en`, ES por defecto)
+- **framer-motion** (animaciones sutiles) · **lucide-react** (íconos)
+- `next/font` (Sora + Inter), `next/image`, SEO con metadata, `sitemap.xml`, `robots.txt` y JSON-LD
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## Requisitos
+
+- Node.js 18.18+ (recomendado 20+)
+
+## Desarrollo
+
+```bash
+npm install
+npm run dev
+```
+
+Abrí http://localhost:3000 (redirige a `/es`).
+
+## Build de producción
+
+```bash
+npm run build
+npm run start
+```
+
+## Variables de entorno
+
+Copiá `.env.example` a `.env.local` y ajustá la URL pública (SEO/sitemap/OG):
+
+```
+NEXT_PUBLIC_SITE_URL=https://tudominio.com
+```
+
+## Estructura
+
+```
+src/
+├─ app/[locale]/         Páginas: home, productos, productos/[slug], nosotros, contacto
+│  ├─ layout.tsx         Layout raíz (fuentes, header/footer, metadata, JSON-LD Organization)
+│  └─ not-found.tsx      404 localizado
+├─ app/sitemap.ts        Sitemap (ES/EN + productos)
+├─ app/robots.ts         robots.txt
+├─ components/           ui/ · layout/ · home/ · products/ · contact/ · motion/ · seo/
+├─ data/                 products.ts (8 productos) · categories.ts
+├─ i18n/                 routing · navigation · request (next-intl)
+├─ lib/                  site.ts · seo.ts · crops.ts · loc.ts · cn.ts
+└─ middleware.ts         Middleware i18n
+messages/                es.json · en.json (toda la UI)
+public/                  Logos (logo-color, logo-dark, logo-symbol), og-image
+```
+
+## Contenido y marca
+
+- **Productos:** `src/data/products.ts` (datos reales de las etiquetas; ES/EN por campo).
+- **Textos de UI:** `messages/es.json` y `messages/en.json` (nunca hardcodeados en componentes).
+- **Datos de empresa:** `src/lib/site.ts`.
+- **Tokens de diseño:** `tailwind.config.ts`.
+
+### Logos
+
+Los logos provistos (`assets/`) se procesan a PNG recortados con `scripts/prep-logos.mjs`
+(usa `sharp`, solo en build-time). Para regenerarlos tras cambiar los originales:
+
+```bash
+npm install sharp --no-save
+node scripts/prep-logos.mjs
+```
+
+## Deploy en Vercel
+
+1. Importá el repo en Vercel (root del proyecto = esta carpeta `web/`).
+2. Configurá `NEXT_PUBLIC_SITE_URL` con el dominio final.
+3. Deploy. (Framework detectado: Next.js.)
+
+## Pendientes del cliente
+
+Email oficial, redes sociales, HEX exactos de marca, registros SENASAG del resto de
+productos y fotografías reales de campo/producto (ver `../docs/05-company-info.md`).
+Mientras tanto se usan placeholders branded (gradientes por categoría) para los productos.
