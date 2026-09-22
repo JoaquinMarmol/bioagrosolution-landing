@@ -44,7 +44,14 @@ export default function ContactPage({ params: { locale } }: { params: { locale: 
               </h2>
               <ul className="mt-6 space-y-5">
                 <InfoRow icon={MapPin} label={t('addressLabel')}>
-                  {siteConfig.address}
+                  <a
+                    href={siteConfig.mapsLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="transition-colors hover:text-forest-deep"
+                  >
+                    {siteConfig.address}
+                  </a>
                 </InfoRow>
 
                 <InfoRow icon={Phone} label={t('phoneLabel')}>

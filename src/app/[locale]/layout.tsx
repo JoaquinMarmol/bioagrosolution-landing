@@ -85,8 +85,8 @@ export default async function LocaleLayout({
     telephone: `+${siteConfig.whatsapp}`,
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'Parque Industrial de Montero',
-      addressLocality: 'Montero',
+      streetAddress: 'Edificio Saota Park, 6RH2+X5X',
+      addressLocality: 'Santa Cruz de la Sierra',
       addressRegion: 'Santa Cruz',
       addressCountry: 'BO',
     },

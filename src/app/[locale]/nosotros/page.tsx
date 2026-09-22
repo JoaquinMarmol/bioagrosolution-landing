@@ -122,7 +122,14 @@ export default function AboutPage({ params: { locale } }: { params: { locale: st
               {t('locationTitle')}
             </h2>
             <p className="mt-3 text-lg leading-relaxed text-ink">{t('locationText')}</p>
-            <p className="mt-2 text-mute">{siteConfig.address}</p>
+            <a
+              href={siteConfig.mapsLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-2 inline-block text-mute transition-colors hover:text-forest-deep"
+            >
+              {siteConfig.address}
+            </a>
           </div>
           <FadeIn>
             <div className="overflow-hidden rounded-3xl shadow-card ring-1 ring-ink/10">

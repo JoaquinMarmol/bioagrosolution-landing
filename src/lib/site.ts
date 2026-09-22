@@ -1,6 +1,6 @@
 /**
  * Datos de la empresa (ver docs/05-company-info.md).
- * Pendientes del cliente (email oficial, redes) quedan como placeholders.
+ * Las redes sociales pendientes del cliente quedan como placeholders.
  */
 export const siteConfig = {
   name: 'Green Science',
@@ -10,9 +10,9 @@ export const siteConfig = {
   // Contacto
   phones: ['+54 9 2262 48-7998'],
   whatsapp: '5492262487998', // formato wa.me (sin + ni espacios)
-  email: 'info@greenscience.bo', // placeholder — pendiente de confirmar
-  address: 'Parque Industrial de Montero, Montero – Santa Cruz, Bolivia',
-  addressShort: 'Montero – Santa Cruz, Bolivia',
+  email: 'bioagrosolutions@gmail.com',
+  address: 'Edificio Saota Park, 6RH2+X5X, Santa Cruz de la Sierra, Bolivia',
+  addressShort: 'Santa Cruz de la Sierra, Bolivia',
   region: 'Santa Cruz, Bolivia',
 
   // Emergencias / legal
@@ -20,8 +20,8 @@ export const siteConfig = {
 
   // Mapa embebido (sin API key)
   mapsEmbed:
-    'https://www.google.com/maps?q=Parque%20Industrial%20Montero%20Santa%20Cruz%20Bolivia&z=13&output=embed',
-  mapsLink: 'https://maps.google.com/?q=Parque+Industrial+Montero+Santa+Cruz+Bolivia',
+    'https://www.google.com/maps?q=-17.7700042,-63.1995129&z=17&output=embed',
+  mapsLink: 'https://maps.app.goo.gl/UhJuwa1pRrdBAPKB8',
 
   // Redes (pendientes de confirmar por el cliente)
   social: {
