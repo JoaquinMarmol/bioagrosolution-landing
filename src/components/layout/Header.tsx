@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 import { Menu, X, MessageCircle } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/navigation';
@@ -58,13 +59,37 @@ export function Header() {
     <header className="fixed inset-x-0 top-0 z-50">
       <div
         className={cn(
-          'transition-colors duration-300',
+          'relative overflow-hidden transition-colors duration-300',
           transparent
             ? 'bg-transparent'
-            : 'border-b border-ink/5 bg-white/85 backdrop-blur-md supports-[backdrop-filter]:bg-white/75',
+            : 'border-b border-ink/5 bg-white/85 backdrop-blur-md supports-[backdrop-filter]:bg-white/70',
         )}
       >
-        <div className="container-px flex h-16 items-center justify-between gap-4 lg:h-[72px]">
+        {/* Fondo: foto de campo difuminada bajo un velo claro (solo en estado sólido) */}
+        <div
+          aria-hidden
+          className={cn(
+            'pointer-events-none absolute inset-0 transition-opacity duration-300',
+            transparent ? 'opacity-0' : 'opacity-100',
+          )}
+        >
+          <Image
+            src="/textures/campo-hero.jpg"
+            alt=""
+            fill
+            sizes="100vw"
+            className="scale-105 object-cover object-[center_46%]"
+          />
+          <div
+            className="absolute inset-0"
+            style={{
+              backgroundImage:
+                'linear-gradient(to bottom, rgba(255,255,255,0.74) 0%, rgba(255,255,255,0.68) 55%, rgba(255,255,255,0.82) 100%)',
+            }}
+          />
+        </div>
+
+        <div className="container-px relative flex h-16 items-center justify-between gap-4 lg:h-[72px]">
           <Brand
             variant={transparent ? 'onDark' : 'color'}
             priority
@@ -142,7 +167,25 @@ export function Header() {
         )}
         aria-hidden={!open}
       >
-        <div className="container-px flex h-16 items-center justify-between">
+        {/* Mismo campo de fondo, apenas insinuado */}
+        <div aria-hidden className="pointer-events-none absolute inset-0 overflow-hidden">
+          <Image
+            src="/textures/campo-header.jpg"
+            alt=""
+            fill
+            sizes="100vw"
+            className="object-cover object-center"
+          />
+          <div
+            className="absolute inset-0"
+            style={{
+              backgroundImage:
+                'linear-gradient(to bottom, rgba(255,255,255,0.84) 0%, rgba(255,255,255,0.93) 40%, rgba(255,255,255,0.99) 100%)',
+            }}
+          />
+        </div>
+
+        <div className="container-px relative flex h-16 items-center justify-between">
           <Brand variant="color" className="h-8" />
           <button
             type="button"
@@ -154,7 +197,7 @@ export function Header() {
           </button>
         </div>
 
-        <nav className="container-px flex flex-1 flex-col justify-center gap-1 pb-16" aria-label={t('home')}>
+        <nav className="container-px relative flex flex-1 flex-col justify-center gap-1 pb-16" aria-label={t('home')}>
           {NAV.map((item) => (
             <Link
               key={item.href}

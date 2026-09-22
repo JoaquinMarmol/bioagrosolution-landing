@@ -4,6 +4,7 @@ import { PageHero } from '@/components/layout/PageHero';
 import { Section } from '@/components/ui/Section';
 import CropsExplorer from '@/components/crops/CropsExplorer';
 import { pageMetadata } from '@/lib/seo';
+import { whatsappLink } from '@/lib/site';
 import { crops } from '@/data/crops';
 
 export async function generateMetadata({
@@ -56,7 +57,7 @@ export default function CultivosPage({
               variedad, clima y presión de plagas. El acompañamiento técnico está incluido.
             </p>
             <a
-              href="https://wa.me/5492262487998"
+              href={whatsappLink()}
               target="_blank"
               rel="noopener noreferrer"
               className="mt-8 inline-flex items-center gap-2 rounded-full bg-lime px-7 py-3.5 font-display text-[15px] font-bold text-forest-deep shadow-glow transition hover:bg-lime-400"

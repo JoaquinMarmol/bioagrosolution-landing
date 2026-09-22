@@ -13,6 +13,18 @@ export function FinalCTA() {
     <Container className="py-16 sm:pb-16">
       <FadeIn>
         <div className="relative overflow-hidden rounded-3xl bg-brand px-6 py-14 text-center shadow-glow sm:px-12 lg:py-20">
+          {/* Foto de campo con opacidad sobre el degradé de marca */}
+          <div className="pointer-events-none absolute inset-0" aria-hidden>
+            <Image
+              src="/textures/campo-suave.jpg"
+              alt=""
+              fill
+              sizes="(min-width: 1200px) 1200px, 100vw"
+              className="object-cover object-[center_62%] opacity-25"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-forest-deep/40 via-transparent to-transparent" />
+          </div>
+
           {/* Símbolo de marca de fondo */}
           <Image
             src="/logo-symbol.png"

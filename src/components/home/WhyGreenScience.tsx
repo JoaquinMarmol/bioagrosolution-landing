@@ -17,6 +17,26 @@ export function WhyGreenScience() {
 
   return (
     <section className="relative overflow-hidden bg-night text-white">
+      {/* Foto de campo de fondo, con opacidad */}
+      <div className="pointer-events-none absolute inset-0" aria-hidden>
+        <Image
+          src="/textures/campo-suave.jpg"
+          alt=""
+          fill
+          sizes="100vw"
+          className="object-cover object-center opacity-55"
+        />
+        <div
+          className="absolute inset-0"
+          style={{
+            backgroundImage:
+              'linear-gradient(to right, rgba(11,15,12,0.94) 0%, rgba(11,15,12,0.86) 38%, rgba(11,15,12,0.68) 70%, rgba(11,15,12,0.5) 100%)',
+          }}
+        />
+        <div className="absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-night to-transparent" />
+        <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-night to-transparent" />
+      </div>
+
       {/* Acentos */}
       <div
         className="pointer-events-none absolute -right-24 top-0 h-96 w-96 rounded-full bg-forest/30 blur-[120px]"

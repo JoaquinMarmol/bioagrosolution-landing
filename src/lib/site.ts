@@ -8,8 +8,8 @@ export const siteConfig = {
   url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://greenscience.bo',
 
   // Contacto
-  phones: ['+591 74623363'],
-  whatsapp: '59174623363', // formato wa.me (sin + ni espacios)
+  phones: ['+54 9 2262 48-7998'],
+  whatsapp: '5492262487998', // formato wa.me (sin + ni espacios)
   email: 'info@greenscience.bo', // placeholder — pendiente de confirmar
   address: 'Parque Industrial de Montero, Montero – Santa Cruz, Bolivia',
   addressShort: 'Montero – Santa Cruz, Bolivia',

@@ -1,4 +1,5 @@
 import type { ReactNode } from 'react';
+import Image from 'next/image';
 import { Container } from '@/components/ui/Container';
 import { cn } from '@/lib/cn';
 
@@ -20,6 +21,32 @@ export function PageHero({
 
   return (
     <section className="relative overflow-hidden border-b border-ink/5 bg-cream pb-12 pt-28 sm:pb-16 sm:pt-32 lg:pt-36">
+      {/* Foto de campo difuminada de fondo */}
+      <div className="pointer-events-none absolute inset-0" aria-hidden>
+        <Image
+          src="/textures/campo-hero.jpg"
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover object-[center_55%]"
+        />
+        {/* Velo suave: deja ver el campo y mantiene el texto legible */}
+        <div
+          className="absolute inset-0"
+          style={{
+            backgroundImage:
+              'linear-gradient(to bottom, rgba(247,250,246,0.62) 0%, rgba(247,250,246,0.48) 45%, rgba(247,250,246,0.74) 100%)',
+          }}
+        />
+        <div
+          className="absolute inset-0"
+          style={{
+            backgroundImage:
+              'radial-gradient(72% 68% at 50% 56%, rgba(255,255,255,0.62) 0%, rgba(255,255,255,0.28) 55%, rgba(255,255,255,0) 78%)',
+          }}
+        />
+      </div>
       <div
         className="pointer-events-none absolute -right-20 -top-10 h-72 w-72 rounded-full bg-lime/10 blur-[90px]"
         aria-hidden
@@ -37,7 +64,7 @@ export function PageHero({
           {subtitle ? (
             <p
               className={cn(
-                'mt-4 text-base leading-relaxed text-mute text-pretty sm:text-lg',
+                'mt-4 text-base leading-relaxed text-ink/80 text-pretty sm:text-lg',
                 center && 'mx-auto',
               )}
             >
