@@ -4,7 +4,7 @@ import { products } from '@/data/products';
 import { casos } from '@/data/casos';
 import { siteConfig } from '@/lib/site';
 
-const STATIC_PATHS = ['', '/productos', '/casos', '/nosotros', '/contacto'];
+const STATIC_PATHS = ['', '/productos', '/casos', '/nosotros', '/contacto', '/referidos'];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const paths = [
