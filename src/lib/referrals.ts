@@ -1,7 +1,7 @@
 const whatsappMessage =
   'Hola BioAgroSolutions, quiero participar del Programa de Referidos y Experiencia en Campo.';
 
-const communityInvitationUrl = 'https://whatsapp.com/channel/0029Vb8JdXkCBtx5XBRhtH0g';
+const communityInvitationUrl = 'https://chat.whatsapp.com/HX5Nuq93IU4HdkCyKg6qCL';
 
 export const referralsConfig = {
   commissionRate: 0.033,
