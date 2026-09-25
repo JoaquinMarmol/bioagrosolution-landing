@@ -143,7 +143,7 @@ export default function ReferidosPage({ params: { locale } }: { params: { locale
   return (
     <>
       <section className="relative overflow-hidden bg-night pb-16 pt-28 text-white sm:pb-20 sm:pt-32 lg:pb-24 lg:pt-40">
-        <Image src="/casos/08_manejo_agricultura_soja/05.jpg" alt="" fill priority sizes="100vw" className="object-cover object-center opacity-55" />
+        <Image src="/casos/03_comparativa_tratamiento_semilla/07.jpg" alt="" fill priority sizes="100vw" className="object-cover object-center opacity-55" />
         <div className="absolute inset-0 bg-gradient-to-r from-night via-night/85 to-night/35" />
         <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-night to-transparent" />
         <Container className="relative">
