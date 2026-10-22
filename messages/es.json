@@ -1,6 +1,6 @@
 {
   "site": {
-    "name": "Green Science",
+    "name": "Bioagrosolutions",
     "tagline": "Living Soil Biotechnology"
   },
   "nav": {
@@ -97,14 +97,14 @@
   },
   "featured": {
     "eyebrow": "Nuestros productos",
-    "title": "La línea completa Green Science",
-    "subtitle": "Ocho bioinsumos para nutrir el suelo, tratar la semilla y controlar plagas y enfermedades.",
+    "title": "La línea completa Bioagrosolutions",
+    "subtitle": "Siete bioinsumos para nutrir el suelo, tratar la semilla y controlar plagas y enfermedades.",
     "viewAll": "Ver fichas técnicas"
   },
   "why": {
     "eyebrow": "Living Soil Biotechnology",
     "title": "Suelo vivo, cultivos fuertes",
-    "lead": "En Green Science desarrollamos bioinsumos a partir de microorganismos benéficos vivos. Nuestra tecnología devuelve la vida al suelo: nutre, equilibra su microflora y activa las defensas naturales de la planta.",
+    "lead": "En Bioagrosolutions desarrollamos bioinsumos a partir de microorganismos benéficos vivos. Nuestra tecnología devuelve la vida al suelo: nutre, equilibra su microflora y activa las defensas naturales de la planta.",
     "points": {
       "micro": {
         "title": "Microorganismos benéficos",
@@ -123,14 +123,14 @@
         "desc": "Producción limpia, suelo fértil y rendimiento campaña tras campaña."
       }
     },
-    "cta": "Conocé Green Science"
+    "cta": "Conocé Bioagrosolutions"
   },
   "cta": {
     "title": "¿Listo para un suelo más vivo?",
     "subtitle": "Conversemos sobre tu cultivo y armemos un plan biológico a tu medida.",
     "primary": "Contactar ahora",
     "whatsapp": "Escribir por WhatsApp",
-    "whatsappMessage": "Hola Green Science, quiero más información sobre sus bioinsumos."
+    "whatsappMessage": "Hola Bioagrosolutions, quiero más información sobre sus bioinsumos."
   },
   "footer": {
     "tagline": "Bioinsumos agrícolas de origen orgánico microbiano para suelos vivos y agricultura sostenible.",
@@ -139,7 +139,7 @@
     "productsTitle": "Productos",
     "contactTitle": "Contacto",
     "rights": "Todos los derechos reservados.",
-    "senasag": "Productos biológicos de origen orgánico microbiano. BIO-MULUSK cuenta con Reg. SENASAG N° 07-16428.",
+    "senasag": "Productos biológicos de origen orgánico microbiano.",
     "emergencyLabel": "Intoxicaciones (Bolivia)"
   },
   "productsPage": {
@@ -174,13 +174,13 @@
     "ctaTitle": "¿Te interesa {product}?",
     "ctaText": "Escribinos y un asesor te ayuda con la dosis y el plan de aplicación para tu cultivo.",
     "ctaButton": "Consultar por este producto",
-    "whatsappMessage": "Hola Green Science, quiero información sobre {product}.",
+    "whatsappMessage": "Hola Bioagrosolutions, quiero información sobre {product}.",
     "relatedTitle": "Otros productos"
   },
   "casosPage": {
     "eyebrow": "Resultados en campo",
     "title": "Casos de éxito",
-    "subtitle": "Resultados reales de productores con la línea Green Science: soja, trigo, maíz, arroz, sorgo y ganadería. Lo que se ve en el lote, contado por quienes lo aplicaron."
+    "subtitle": "Resultados reales de productores con la línea Bioagrosolutions: soja, trigo, maíz, arroz, sorgo y ganadería. Lo que se ve en el lote, contado por quienes lo aplicaron."
   },
   "casoDetail": {
     "back": "Volver a casos",
@@ -199,12 +199,12 @@
     "relatedTitle": "Más casos",
     "viewAll": "Ver todos los casos",
     "ctaButton": "Consultar por este caso",
-    "whatsappMessage": "Hola Green Science, vi el caso \"{caso}\" y quiero más información."
+    "whatsappMessage": "Hola Bioagrosolutions, vi el caso \"{caso}\" y quiero más información."
   },
   "about": {
     "eyebrow": "Nosotros",
     "title": "Living Soil Biotechnology",
-    "intro": "Green Science es la sublínea de bioinsumos de Bioagrosolutions, empresa boliviana dedicada al desarrollo, formulación y producción de bioinsumos agrícolas de origen orgánico microbiano. Desde Montero, Santa Cruz, llevamos tecnología de microorganismos benéficos al campo para construir suelos vivos y una agricultura más sostenible.",
+    "intro": "Bioagrosolutions es una empresa boliviana dedicada al desarrollo, formulación y producción de bioinsumos agrícolas de origen orgánico microbiano. Desde Montero, Santa Cruz, llevamos tecnología de microorganismos benéficos al campo para construir suelos vivos y una agricultura más sostenible.",
     "missionTitle": "Nuestra misión",
     "missionText": "Ofrecer alternativas biológicas eficaces a los insumos químicos, mejorando la salud del suelo y la rentabilidad del agricultor sin dejar residuos tóxicos.",
     "approachTitle": "Nuestro enfoque",
@@ -249,28 +249,28 @@
     "hours": "Lun a Vie, 8:00–18:00",
     "mapTitle": "Cómo llegar",
     "emergencyLabel": "Intoxicaciones (Bolivia)",
-    "whatsappMessage": "Hola Green Science, quiero más información sobre sus bioinsumos."
+    "whatsappMessage": "Hola Bioagrosolutions, quiero más información sobre sus bioinsumos."
   },
   "metadata": {
     "home": {
-      "title": "Green Science — Bioinsumos agrícolas | Living Soil Biotechnology",
+      "title": "Bioagrosolutions — Bioinsumos agrícolas | Living Soil Biotechnology",
       "description": "Bioinsumos de origen orgánico microbiano: biofertilizantes, bioestimulantes, bioinsecticidas y biofungicidas. 100% biológico, sin residuos. Montero, Santa Cruz, Bolivia."
     },
     "products": {
       "title": "Productos",
-      "description": "Catálogo de bioinsumos Green Science: bioestimulantes, biofertilizantes, bioinsecticidas, biofungicidas, tratamiento de semillas y línea pecuaria."
+      "description": "Catálogo de bioinsumos Bioagrosolutions: bioestimulantes, biofertilizantes, bioinsecticidas, biofungicidas, tratamiento de semillas y línea pecuaria."
     },
     "casos": {
       "title": "Casos de éxito",
-      "description": "Resultados reales con bioinsumos Green Science en soja, trigo, maíz, arroz, sorgo y ganadería en Bolivia. Situación, tratamiento y resultado de cada caso."
+      "description": "Resultados reales con bioinsumos Bioagrosolutions en soja, trigo, maíz, arroz, sorgo y ganadería en Bolivia. Situación, tratamiento y resultado de cada caso."
     },
     "about": {
       "title": "Nosotros",
-      "description": "Green Science: biotecnología de suelo vivo. Bioinsumos de origen orgánico microbiano desde Montero, Santa Cruz, Bolivia."
+      "description": "Bioagrosolutions: biotecnología de suelo vivo. Bioinsumos de origen orgánico microbiano desde Montero, Santa Cruz, Bolivia."
     },
     "contact": {
       "title": "Contacto",
-      "description": "Contactá a Green Science en Santa Cruz de la Sierra, Bolivia. Teléfono, WhatsApp y asesoramiento sobre bioinsumos."
+      "description": "Contactá a Bioagrosolutions en Santa Cruz de la Sierra, Bolivia. Teléfono, WhatsApp y asesoramiento sobre bioinsumos."
     }
   },
   "process": {

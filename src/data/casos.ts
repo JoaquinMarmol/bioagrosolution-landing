@@ -1,6 +1,6 @@
 /**
- * Casos de éxito Green Science (Bolivia).
- * Fuente: chat "Bioagrosolutions y Green Science" (8–12 jun 2026) + transcripción de los
+ * Casos de éxito Bioagrosolutions (Bolivia).
+ * Fuente: chat "Bioagrosolutions y Bioagrosolutions" (8–12 jun 2026) + transcripción de los
  * audios de cada productor. Solo se publica lo confirmado; no se inventan números ni datos.
  * La cita de cada caso ("Lo que dijeron en el campo") es una frase del productor,
  * editada levemente para lectura, fiel al sentido original del audio/chat.
@@ -49,8 +49,8 @@ export const casos: Caso[] = [
       en: 'Soybean — Bio Max 43 + Full Power 50 (before/after at 10 days)',
     },
     cultivo: { es: 'Soja', en: 'Soybean' },
-    productoLabel: 'BIOMAX 43 + FULL POWER 50',
-    productoSlugs: ['biomax-43', 'full-power-50'],
+    productoLabel: 'BioRazor + VitalRush',
+    productoSlugs: ['biorazor', 'vitalrush'],
     ubicacion: 'Colonia, Bolivia',
     dosis: { es: '1 litro por cada 1000 litros de agua', en: '1 liter per 1000 liters of water' },
     resumen: {
@@ -87,8 +87,8 @@ export const casos: Caso[] = [
       en: 'Wheat — Seed Forte 4.0 (roots at 15 days from sowing)',
     },
     cultivo: { es: 'Trigo', en: 'Wheat' },
-    productoLabel: 'SEED FORTE 4.0',
-    productoSlugs: ['seed-forte-4-0'],
+    productoLabel: 'SEED POWER 4.0',
+    productoSlugs: ['seed-power-4-0'],
     ubicacion: 'Bolivia',
     dosis: {
       es: 'Tratamiento de semilla — 500 ml por cada 100 kg de semilla · 1 L/ha',
@@ -129,7 +129,7 @@ export const casos: Caso[] = [
     },
     cultivo: { es: 'Maíz / semilla', en: 'Maize / seed' },
     productoLabel: 'SEED FORTE',
-    productoSlugs: ['seed-forte-4-0'],
+    productoSlugs: ['seed-power-4-0'],
     ubicacion: 'Bolivia',
     dosis: { es: 'Tratamiento de semilla', en: 'Seed treatment' },
     resumen: {
@@ -137,8 +137,8 @@ export const casos: Caso[] = [
       en: 'Same management, different seed: +25 quintals/ha from the biological treatment alone.',
     },
     situacion: {
-      es: 'Ensayo en maíz para comparar dos tratamientos de semilla bajo el mismo manejo posterior. El tratamiento 1 fue químico (cepa de Azospirillum más fungicida químico) y se sembró 4 días antes; el tratamiento 2 fue el biológico de Green Science. Todas las demás aplicaciones y productos fueron idénticos en ambos lotes.',
-      en: 'A maize trial comparing two seed treatments under the same subsequent management. Treatment 1 was chemical (an Azospirillum strain plus a chemical fungicide) and was sown 4 days earlier; treatment 2 was the Green Science biological one. Every other application and product was identical on both plots.',
+      es: 'Ensayo en maíz para comparar dos tratamientos de semilla bajo el mismo manejo posterior. El tratamiento 1 fue químico (cepa de Azospirillum más fungicida químico) y se sembró 4 días antes; el tratamiento 2 fue el biológico de Bioagrosolutions. Todas las demás aplicaciones y productos fueron idénticos en ambos lotes.',
+      en: 'A maize trial comparing two seed treatments under the same subsequent management. Treatment 1 was chemical (an Azospirillum strain plus a chemical fungicide) and was sown 4 days earlier; treatment 2 was the Bioagrosolutions biological one. Every other application and product was identical on both plots.',
     },
     tratamiento: {
       es: 'La única variable fue el tratamiento de semilla. Durante el ciclo se controlaron plagas como chicharrita y gusano con los productos biológicos, por igual en los dos lotes.',
@@ -163,7 +163,7 @@ export const casos: Caso[] = [
     slug: '04_maiz_cusi',
     titulo: { es: 'Maíz de Cusi — manejo biológico para silo', en: 'Cusi maize — biological program for silage' },
     cultivo: { es: 'Maíz', en: 'Maize' },
-    productoLabel: 'Manejo biológico — Línea Green Science',
+    productoLabel: 'Manejo biológico — Línea Bioagrosolutions',
     productoSlugs: [],
     ubicacion: 'Cusi, Bolivia',
     resumen: {
@@ -175,8 +175,8 @@ export const casos: Caso[] = [
       en: 'A grower in Cusi (Bolivia) with around 10,000 hectares, mainly in livestock, who grows maize for forage and silage for his own cattle. In normal seasons he obtained 6 silos of 250 tonnes.',
     },
     tratamiento: {
-      es: 'Campaña conducida con el manejo biológico de la línea Green Science.',
-      en: 'Season run with the Green Science biological program.',
+      es: 'Campaña conducida con el manejo biológico de la línea Bioagrosolutions.',
+      en: 'Season run with the Bioagrosolutions biological program.',
     },
     resultado: {
       es: 'Con el manejo biológico llegó a 10 silos de 250 toneladas, frente a los 6 habituales. Fue tal el excedente que, por primera vez, tuvo que vender maíz afuera por falta de lugar para almacenarlo.',
@@ -200,7 +200,7 @@ export const casos: Caso[] = [
       en: 'Maize — Bella Unión (3-ear comparison)',
     },
     cultivo: { es: 'Maíz', en: 'Maize' },
-    productoLabel: 'Manejo biológico — Línea Green Science',
+    productoLabel: 'Manejo biológico — Línea Bioagrosolutions',
     productoSlugs: [],
     ubicacion: 'Bella Unión',
     resumen: {
@@ -212,8 +212,8 @@ export const casos: Caso[] = [
       en: 'Maize follow-up in Bella Unión, comparing three ears at different stages of development within the same crop. The goal was to read the plot’s state and decide the best moment to start harvest.',
     },
     tratamiento: {
-      es: 'Cultivo conducido con la línea de bioinsumos Green Science, con seguimiento agronómico en campo.',
-      en: 'Crop managed with the Green Science bio-input line, with agronomic field follow-up.',
+      es: 'Cultivo conducido con la línea de bioinsumos Bioagrosolutions, con seguimiento agronómico en campo.',
+      en: 'Crop managed with the Bioagrosolutions bio-input line, with agronomic field follow-up.',
     },
     resultado: {
       es: 'La comparación de las tres mazorcas permitió coordinar con el Dr. Moisés el inicio del corte en el momento justo, cuando el lote terminó de emparejarse.',
@@ -235,8 +235,8 @@ export const casos: Caso[] = [
       en: 'Max 18 Rice — recovery under extreme drought',
     },
     cultivo: { es: 'Arroz', en: 'Rice' },
-    productoLabel: 'FULL POWER 50 + BIOMAX 43',
-    productoSlugs: ['full-power-50', 'biomax-43'],
+    productoLabel: 'VitalRush + BioRazor',
+    productoSlugs: ['vitalrush', 'biorazor'],
     ubicacion: 'El Beni, Bolivia',
     dosis: { es: 'Manejo 80% biológico · 20% químico', en: '80% biological · 20% chemical program' },
     resumen: {
@@ -274,8 +274,8 @@ export const casos: Caso[] = [
       en: 'Sorghum — fall armyworm control with Bio Max 43',
     },
     cultivo: { es: 'Sorgo', en: 'Sorghum' },
-    productoLabel: 'BIOMAX 43',
-    productoSlugs: ['biomax-43'],
+    productoLabel: 'BioRazor',
+    productoSlugs: ['biorazor'],
     ubicacion: 'Bolivia',
     dosis: { es: 'Secuencial 1 L/ha', en: 'Sequential 1 L/ha' },
     resumen: {
@@ -310,7 +310,7 @@ export const casos: Caso[] = [
       en: 'Integrated crop management (with Wilmer)',
     },
     cultivo: { es: 'Soja / varios', en: 'Soybean / various' },
-    productoLabel: 'Línea Green Science',
+    productoLabel: 'Línea Bioagrosolutions',
     productoSlugs: [],
     ubicacion: 'Bolivia',
     resumen: {
@@ -318,12 +318,12 @@ export const casos: Caso[] = [
       en: 'Full biological management on our own fields, with Wilmer.',
     },
     situacion: {
-      es: 'Manejo integral en la agricultura propia del equipo, conducido junto a Wilmer, aplicando la línea completa de bioinsumos Green Science a lo largo del ciclo.',
-      en: 'Integrated management on the team’s own farming, run together with Wilmer, applying the full Green Science bio-input line throughout the cycle.',
+      es: 'Manejo integral en la agricultura propia del equipo, conducido junto a Wilmer, aplicando la línea completa de bioinsumos Bioagrosolutions a lo largo del ciclo.',
+      en: 'Integrated management on the team’s own farming, run together with Wilmer, applying the full Bioagrosolutions bio-input line throughout the cycle.',
     },
     tratamiento: {
-      es: 'Programa biológico integral sobre el cultivo, combinando bioestimulación, nutrición y control biológico de plagas y enfermedades con la línea Green Science.',
-      en: 'A full biological program on the crop, combining biostimulation, nutrition and biological control of pests and diseases with the Green Science line.',
+      es: 'Programa biológico integral sobre el cultivo, combinando bioestimulación, nutrición y control biológico de plagas y enfermedades con la línea Bioagrosolutions.',
+      en: 'A full biological program on the crop, combining biostimulation, nutrition and biological control of pests and diseases with the Bioagrosolutions line.',
     },
     resultado: {
       es: 'El manejo se refleja en cultivos bien implantados y con un sistema radicular profundo y vigoroso, base de plantas más sanas y de mejor rendimiento.',
@@ -345,8 +345,8 @@ export const casos: Caso[] = [
       en: 'Beef cattle — Bio Dyne 500 (weight gain)',
     },
     cultivo: { es: 'Ganadería bovina', en: 'Cattle' },
-    productoLabel: 'BIODYNE 500',
-    productoSlugs: ['biodyne-500'],
+    productoLabel: 'BioCore 360',
+    productoSlugs: ['biocore-360'],
     ubicacion: 'Bolivia',
     dosis: {
       es: 'Bebederos: 1 L activado por 1000 L de agua · Comederos e instalaciones: 5 L activado por mochila de 20 L',
@@ -387,8 +387,8 @@ export const casos: Caso[] = [
       en: 'Agriculture — Bio Dyne 500 (tired soils)',
     },
     cultivo: { es: 'Agricultura / suelo', en: 'Agriculture / soil' },
-    productoLabel: 'BIODYNE 500',
-    productoSlugs: ['biodyne-500'],
+    productoLabel: 'BioCore 360',
+    productoSlugs: ['biocore-360'],
     ubicacion: 'Bolivia',
     resumen: {
       es: 'Reactiva la flora microbiana y mejora suelos cansados y compactados.',

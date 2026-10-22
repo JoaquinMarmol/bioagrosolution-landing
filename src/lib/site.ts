@@ -3,7 +3,7 @@
  * Las redes sociales pendientes del cliente quedan como placeholders.
  */
 export const siteConfig = {
-  name: 'Green Science',
+  name: 'Bioagrosolutions',
   tagline: 'Living Soil Biotechnology',
   url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://greenscience.bo',
 

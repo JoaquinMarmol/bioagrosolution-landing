@@ -1,5 +1,5 @@
 /**
- * Catálogo Green Science — datos extraídos de las etiquetas oficiales
+ * Catálogo Bioagrosolutions — datos extraídos de las etiquetas oficiales
  * (ver docs/04-products-content.md). NO inventar: todo proviene de esa fuente.
  * Todos los productos son de Grupo biológico: origen orgánico microbiano.
  */
@@ -36,8 +36,8 @@ export type Product = {
 
 export const products: Product[] = [
   {
-    slug: 'full-power-50',
-    name: 'FULL POWER 50',
+    slug: 'vitalrush',
+    name: 'VitalRush',
     category: 'bioestimulante',
     featured: true,
     type: { es: 'Bioestimulante líquido', en: 'Liquid biostimulant' },
@@ -46,8 +46,8 @@ export const products: Product[] = [
       en: 'Fast growth, more flowering and root activation',
     },
     description: {
-      es: 'FULL POWER 50 es un bioestimulante formulado para favorecer y aprovechar la fijación del nitrógeno atmosférico y estimular la producción de fitohormonas vegetales (giberelinas, auxinas y citoquininas). Su acción promueve el desarrollo radicular, incrementa el tamaño y la cantidad de raíces, y mejora la capacidad de absorción de agua y nutrientes, contribuyendo a una mayor tolerancia de la planta frente a periodos de sequía. Además, facilita la solubilización de nutrientes esenciales como fósforo, potasio y hierro, optimizando su disponibilidad y absorción a través del sistema radicular.',
-      en: 'FULL POWER 50 is a biostimulant formulated to promote and harness atmospheric nitrogen fixation and stimulate plant phytohormone production (gibberellins, auxins and cytokinins). It promotes root development, increases root size and number, and improves water and nutrient uptake, helping the plant better tolerate drought periods. It also facilitates the solubilization of essential nutrients such as phosphorus, potassium and iron, optimizing their availability and absorption through the root system.',
+      es: 'VitalRush es un bioestimulante formulado para favorecer y aprovechar la fijación del nitrógeno atmosférico y estimular la producción de fitohormonas vegetales (giberelinas, auxinas y citoquininas). Su acción promueve el desarrollo radicular, incrementa el tamaño y la cantidad de raíces, y mejora la capacidad de absorción de agua y nutrientes, contribuyendo a una mayor tolerancia de la planta frente a periodos de sequía. Además, facilita la solubilización de nutrientes esenciales como fósforo, potasio y hierro, optimizando su disponibilidad y absorción a través del sistema radicular.',
+      en: 'VitalRush is a biostimulant formulated to promote and harness atmospheric nitrogen fixation and stimulate plant phytohormone production (gibberellins, auxins and cytokinins). It promotes root development, increases root size and number, and improves water and nutrient uptake, helping the plant better tolerate drought periods. It also facilitates the solubilization of essential nutrients such as phosphorus, potassium and iron, optimizing their availability and absorption through the root system.',
     },
     composition: [
       { name: 'Azospirillum brasilense (2x10⁸ UFC/ml)', value: '60%' },
@@ -69,8 +69,8 @@ export const products: Product[] = [
     price: 16.5,
   },
   {
-    slug: 'full-green-100',
-    name: 'FULL GREEN 100',
+    slug: 'biondrive',
+    name: 'BioNDrive',
     category: 'biofertilizante',
     featured: true,
     type: { es: 'Biofertilizante líquido', en: 'Liquid biofertilizer' },
@@ -79,8 +79,8 @@ export const products: Product[] = [
       en: 'Higher yield, vigor, color and fertile soil',
     },
     description: {
-      es: 'FULL GREEN 100 es un inoculante y fertilizante microbiano de origen natural, formulado a partir de microorganismos benéficos que mejoran las condiciones del medio donde se aplica. En el suelo contribuye al desplazamiento de microorganismos patógenos y acelera la descomposición de la materia orgánica, favoreciendo el desarrollo y crecimiento de los cultivos. Mejora las propiedades físicas, químicas y biológicas del suelo, incrementa la microflora benéfica, estimula el desarrollo de raicillas y la simbiosis con bacterias fijadoras de nitrógeno, favoreciendo una mayor traslocación y aprovechamiento de nutrientes en la planta.',
-      en: 'FULL GREEN 100 is a natural microbial inoculant and fertilizer formulated from beneficial microorganisms that improve the conditions of the medium where it is applied. In the soil it helps displace pathogenic microorganisms and accelerates the decomposition of organic matter, favoring crop development and growth. It improves the physical, chemical and biological properties of the soil, increases beneficial microflora, stimulates rootlet development and symbiosis with nitrogen-fixing bacteria, promoting greater translocation and use of nutrients by the plant.',
+      es: 'BioNDrive es un inoculante y fertilizante microbiano de origen natural, formulado a partir de microorganismos benéficos que mejoran las condiciones del medio donde se aplica. En el suelo contribuye al desplazamiento de microorganismos patógenos y acelera la descomposición de la materia orgánica, favoreciendo el desarrollo y crecimiento de los cultivos. Mejora las propiedades físicas, químicas y biológicas del suelo, incrementa la microflora benéfica, estimula el desarrollo de raicillas y la simbiosis con bacterias fijadoras de nitrógeno, favoreciendo una mayor traslocación y aprovechamiento de nutrientes en la planta.',
+      en: 'BioNDrive is a natural microbial inoculant and fertilizer formulated from beneficial microorganisms that improve the conditions of the medium where it is applied. In the soil it helps displace pathogenic microorganisms and accelerates the decomposition of organic matter, favoring crop development and growth. It improves the physical, chemical and biological properties of the soil, increases beneficial microflora, stimulates rootlet development and symbiosis with nitrogen-fixing bacteria, promoting greater translocation and use of nutrients by the plant.',
     },
     composition: [
       { name: 'Azospirillum brasilense spp', value: '15%' },
@@ -106,8 +106,8 @@ export const products: Product[] = [
     price: 18,
   },
   {
-    slug: 'seed-forte-4-0',
-    name: 'SEED FORTE 4.0',
+    slug: 'seed-power-4-0',
+    name: 'SEED POWER 4.0',
     category: 'tratamiento-semillas',
     featured: true,
     type: { es: 'Tratamiento de semillas gramíneas', en: 'Grass (Poaceae) seed treatment' },
@@ -116,8 +116,8 @@ export const products: Product[] = [
       en: 'Uniform emergence, more tillering and stronger roots',
     },
     description: {
-      es: 'SEED FORTE 4.0 es una formulación biológica a base de microorganismos seleccionados, destinada al tratamiento de semillas de la familia Poaceae (gramíneas). Su aplicación contribuye al control biológico de patógenos presentes en la semilla, favoreciendo una implantación inicial segura del cultivo. Actúa interfiriendo en el desarrollo de las principales enfermedades, estimula la producción de rizohormonas, incrementa la germinación, el vigor inicial y el crecimiento más uniforme del tallo y la planta.',
-      en: 'SEED FORTE 4.0 is a biological formulation based on selected microorganisms for treating seeds of the Poaceae (grass) family. Its application contributes to the biological control of pathogens present in the seed, favoring a safe initial crop establishment. It interferes with the development of major diseases, stimulates rhizohormone production, and increases germination, initial vigor and more uniform growth of the stem and plant.',
+      es: 'SEED POWER 4.0 es una formulación biológica a base de microorganismos seleccionados, destinada al tratamiento de semillas de la familia Poaceae (gramíneas). Su aplicación contribuye al control biológico de patógenos presentes en la semilla, favoreciendo una implantación inicial segura del cultivo. Actúa interfiriendo en el desarrollo de las principales enfermedades, estimula la producción de rizohormonas, incrementa la germinación, el vigor inicial y el crecimiento más uniforme del tallo y la planta.',
+      en: 'SEED POWER 4.0 is a biological formulation based on selected microorganisms for treating seeds of the Poaceae (grass) family. Its application contributes to the biological control of pathogens present in the seed, favoring a safe initial crop establishment. It interferes with the development of major diseases, stimulates rhizohormone production, and increases germination, initial vigor and more uniform growth of the stem and plant.',
     },
     composition: [
       { name: 'Azospirillum brasilense spp', value: '30%' },
@@ -144,8 +144,8 @@ export const products: Product[] = [
     price: 45.5,
   },
   {
-    slug: 'seed-forte-3-0',
-    name: 'SEED FORTE 3.0',
+    slug: 'seed-power-3-0',
+    name: 'SEED POWER 3.0',
     category: 'tratamiento-semillas',
     type: { es: 'Tratamiento de semillas leguminosas', en: 'Legume seed treatment' },
     tagline: {
@@ -153,8 +153,8 @@ export const products: Product[] = [
       en: 'Nitrogen fixation, more nodulation and uniform germination',
     },
     description: {
-      es: 'SEED FORTE 3.0 es un bioestimulante líquido formulado a partir de una combinación de microorganismos benéficos, destinado al tratamiento de semillas de la familia Fabaceae y otras especies leguminosas. Su formulación biológica actúa en el control de patógenos presentes en la semilla y en el entorno inmediato, reduciendo el riesgo de generación de resistencias. Activa las fitohormonas, incrementa la porosidad de germinación, mejora el vigor inicial y promueve un crecimiento más uniforme del cultivo, favoreciendo la nodulación radicular y la captación de nitrógeno atmosférico.',
-      en: 'SEED FORTE 3.0 is a liquid biostimulant formulated from a combination of beneficial microorganisms for treating seeds of the Fabaceae family and other legume species. Its biological formulation controls pathogens present in the seed and immediate environment, reducing the risk of resistance development. It activates phytohormones, improves germination and initial vigor, and promotes more uniform crop growth, favoring root nodulation and atmospheric nitrogen uptake.',
+      es: 'SEED POWER 3.0 es un bioestimulante líquido formulado a partir de una combinación de microorganismos benéficos, destinado al tratamiento de semillas de la familia Fabaceae y otras especies leguminosas. Su formulación biológica actúa en el control de patógenos presentes en la semilla y en el entorno inmediato, reduciendo el riesgo de generación de resistencias. Activa las fitohormonas, incrementa la porosidad de germinación, mejora el vigor inicial y promueve un crecimiento más uniforme del cultivo, favoreciendo la nodulación radicular y la captación de nitrógeno atmosférico.',
+      en: 'SEED POWER 3.0 is a liquid biostimulant formulated from a combination of beneficial microorganisms for treating seeds of the Fabaceae family and other legume species. Its biological formulation controls pathogens present in the seed and immediate environment, reducing the risk of resistance development. It activates phytohormones, improves germination and initial vigor, and promotes more uniform crop growth, favoring root nodulation and atmospheric nitrogen uptake.',
     },
     composition: [
       { name: 'Azospirillum brasilense spp', value: '30%' },
@@ -179,8 +179,8 @@ export const products: Product[] = [
     price: 45.5,
   },
   {
-    slug: 'biomax-43',
-    name: 'BIOMAX 43',
+    slug: 'biorazor',
+    name: 'BioRazor',
     category: 'bioinsecticida',
     featured: true,
     type: { es: 'Bioinsecticida líquido', en: 'Liquid bioinsecticide' },
@@ -189,8 +189,8 @@ export const products: Product[] = [
       en: 'Total pest control, fast action, 100% biological',
     },
     description: {
-      es: 'BIOMAX 43 es un bioinsecticida formulado a partir de microorganismos entomopatógenos. Su mecanismo de acción se basa en la formación de cristales proteicos durante la fase estacionaria de esporulación. Al ser ingerido por el insecto objetivo, el producto provoca alteraciones fisiológicas que derivan en debilitamiento progresivo, interrupción de la alimentación, reducción de la reproducción y, finalmente, la muerte del insecto. La aplicación de estos microorganismos vivos contribuye además a la solubilización de nutrientes, favoreciendo la sanidad del cultivo y reduciendo la incidencia de plagas de manera biológica y sostenible.',
-      en: 'BIOMAX 43 is a bioinsecticide formulated from entomopathogenic microorganisms. Its mechanism is based on the formation of protein crystals during the stationary sporulation phase. Once ingested by the target insect, it causes physiological alterations leading to progressive weakening, feeding interruption, reduced reproduction and, ultimately, the insect’s death. These living microorganisms also help solubilize nutrients, favoring crop health and reducing pest incidence in a biological and sustainable way.',
+      es: 'BioRazor es un bioinsecticida formulado a partir de microorganismos entomopatógenos. Su mecanismo de acción se basa en la formación de cristales proteicos durante la fase estacionaria de esporulación. Al ser ingerido por el insecto objetivo, el producto provoca alteraciones fisiológicas que derivan en debilitamiento progresivo, interrupción de la alimentación, reducción de la reproducción y, finalmente, la muerte del insecto. La aplicación de estos microorganismos vivos contribuye además a la solubilización de nutrientes, favoreciendo la sanidad del cultivo y reduciendo la incidencia de plagas de manera biológica y sostenible.',
+      en: 'BioRazor is a bioinsecticide formulated from entomopathogenic microorganisms. Its mechanism is based on the formation of protein crystals during the stationary sporulation phase. Once ingested by the target insect, it causes physiological alterations leading to progressive weakening, feeding interruption, reduced reproduction and, ultimately, the insect’s death. These living microorganisms also help solubilize nutrients, favoring crop health and reducing pest incidence in a biological and sustainable way.',
     },
     composition: [
       { name: 'Bacillus thuringiensis kurstaki', value: '10%' },
@@ -214,8 +214,8 @@ export const products: Product[] = [
     price: 20,
   },
   {
-    slug: 'bioguard',
-    name: 'BIOGUARD',
+    slug: 'bioguard-2-0',
+    name: 'Bioguard 2.0',
     category: 'biofungicida',
     featured: true,
     type: { es: 'Biofungicida multisitio', en: 'Multi-site biofungicide' },
@@ -224,8 +224,8 @@ export const products: Product[] = [
       en: 'Total protection, preventive action, broad spectrum',
     },
     description: {
-      es: 'BIOGUARD es la combinación de 3 microorganismos cuyo modo de acción permite un eficiente y excelente biocontrol de patógenos en el follaje. Se han seleccionado especies que se complementan entre sí: una coloniza el sustrato rápidamente desplazando a los patógenos, y la otra produce metabolitos que controlan a los patógenos sobrevivientes al primer ataque. Esta característica asegura un biocontrol secuencial y eficiente, produciendo sustancias antifúngicas que inhiben el crecimiento de los hongos patógenos. Puede estimular las defensas naturales de las plantas haciéndolas más resistentes a las enfermedades fúngicas.',
-      en: 'BIOGUARD combines 3 microorganisms whose mode of action delivers efficient, excellent biocontrol of foliar pathogens. The selected species complement each other: one rapidly colonizes the substrate, displacing pathogens, while the other produces metabolites that control pathogens surviving the first attack. This ensures sequential, efficient biocontrol, producing antifungal substances that inhibit the growth of pathogenic fungi. It can stimulate the plant’s natural defenses, making it more resistant to fungal diseases.',
+      es: 'Bioguard 2.0 es la combinación de 3 microorganismos cuyo modo de acción permite un eficiente y excelente biocontrol de patógenos en el follaje. Se han seleccionado especies que se complementan entre sí: una coloniza el sustrato rápidamente desplazando a los patógenos, y la otra produce metabolitos que controlan a los patógenos sobrevivientes al primer ataque. Esta característica asegura un biocontrol secuencial y eficiente, produciendo sustancias antifúngicas que inhiben el crecimiento de los hongos patógenos. Puede estimular las defensas naturales de las plantas haciéndolas más resistentes a las enfermedades fúngicas.',
+      en: 'Bioguard 2.0 combines 3 microorganisms whose mode of action delivers efficient, excellent biocontrol of foliar pathogens. The selected species complement each other: one rapidly colonizes the substrate, displacing pathogens, while the other produces metabolites that control pathogens surviving the first attack. This ensures sequential, efficient biocontrol, producing antifungal substances that inhibit the growth of pathogenic fungi. It can stimulate the plant’s natural defenses, making it more resistant to fungal diseases.',
     },
     composition: [
       { name: 'Trichoderma spp', value: '15%' },
@@ -246,40 +246,8 @@ export const products: Product[] = [
     price: 21.5,
   },
   {
-    slug: 'bio-mulusk',
-    name: 'BIO-MULUSK',
-    category: 'bioinsecticida',
-    registration: 'Reg. SENASAG N° 07-16428',
-    type: { es: 'Bioinsecticida líquido', en: 'Liquid bioinsecticide' },
-    tagline: {
-      es: 'Control de caracol, mejora la producción, sin residuos para exportación',
-      en: 'Snail control, better production, no residues for export',
-    },
-    description: {
-      es: 'BIO-MULUSK está indicado para el control de moluscos (caracoles, cochinilla, pulgón negro) en cultivos de plátano/banano y cítricos. Es un producto que inmoviliza al caracol y lo esteriliza, impidiendo su reproducción y reduciendo significativamente la cantidad de caracoles en el cultivo. No deja residuos tóxicos, lo que permite su aplicación en cualquier momento del cultivo y favorece la exportación del banano.',
-      en: 'BIO-MULUSK is intended for the control of mollusks (snails, mealybug, black aphid) in banana/plantain and citrus crops. It immobilizes and sterilizes the snail, preventing its reproduction and significantly reducing snail populations in the crop. It leaves no toxic residues, allowing application at any point in the crop cycle and supporting banana export.',
-    },
-    composition: [
-      { name: 'Beauveria bassiana', value: '10%' },
-      { name: 'Metarhizium anisopliae', value: '10%' },
-      { name: 'Pseudomonas fluorescens', value: '10%' },
-      { name: 'Extractos orgánicos atrayentes', value: 'c.s.p.' },
-    ],
-    benefits: {
-      es: ['Control de caracol', 'Mejora la producción', 'No deja residuos para exportación', 'Control de cochinillas, orugas y picudo negro'],
-      en: ['Snail control', 'Improves production', 'No residues for export', 'Controls mealybugs, caterpillars and black weevil'],
-    },
-    crops: ['Banano', 'Piña', 'Palta', 'Café', 'Coca'],
-    usage: {
-      es: 'Preparar la dosis recomendada en un envase limpio. Aplicar en la etapa vegetativa después de la siembra a los 30 días. Se recomienda aplicar con buena humedad relativa y en días nublados. Aplicaciones en V3, V5, V7, R1 y R3.',
-      en: 'Prepare the recommended dose in a clean container. Apply at the vegetative stage 30 days after sowing. Best applied under good relative humidity and on cloudy days. Apply at V3, V5, V7, R1 and R3.',
-    },
-    dose: { es: '3 litros secuencial', en: '3 liters sequential' },
-    price: 20,
-  },
-  {
-    slug: 'biodyne-500',
-    name: 'BIODYNE 500',
+    slug: 'biocore-360',
+    name: 'BioCore 360',
     category: 'pecuario',
     type: { es: 'Bioactivador · Probiótico · Agua', en: 'Bioactivator · Probiotic · Water' },
     tagline: {
@@ -287,8 +255,8 @@ export const products: Product[] = [
       en: 'Biological improvement, wastewater and livestock line',
     },
     description: {
-      es: 'BIODYNE 500 es un producto biológico formado a partir de microorganismos anaeróbicos que obtienen su energía mediante la descomposición de la materia orgánica. Su acción contribuye al control biológico de patógenos, protege el sistema radicular y mejora la resistencia de las plantas frente al estrés abiótico como sequía y salinidad, favoreciendo el desarrollo radicular, la eficiencia fotosintética y el rendimiento de los cultivos. En aplicaciones pecuarias, mejora la digestión y la eficiencia de conversión alimenticia, favorece la ganancia de peso y contribuye al fortalecimiento del sistema inmunológico, además de mejorar la sanidad animal.',
-      en: 'BIODYNE 500 is a biological product made from anaerobic microorganisms that obtain energy by decomposing organic matter. It contributes to the biological control of pathogens, protects the root system and improves plant resistance to abiotic stress such as drought and salinity, favoring root development, photosynthetic efficiency and crop yield. In livestock applications, it improves digestion and feed conversion efficiency, supports weight gain and strengthens the immune system, while improving animal health.',
+      es: 'BioCore 360 es un producto biológico formado a partir de microorganismos anaeróbicos que obtienen su energía mediante la descomposición de la materia orgánica. Su acción contribuye al control biológico de patógenos, protege el sistema radicular y mejora la resistencia de las plantas frente al estrés abiótico como sequía y salinidad, favoreciendo el desarrollo radicular, la eficiencia fotosintética y el rendimiento de los cultivos. En aplicaciones pecuarias, mejora la digestión y la eficiencia de conversión alimenticia, favorece la ganancia de peso y contribuye al fortalecimiento del sistema inmunológico, además de mejorar la sanidad animal.',
+      en: 'BioCore 360 is a biological product made from anaerobic microorganisms that obtain energy by decomposing organic matter. It contributes to the biological control of pathogens, protects the root system and improves plant resistance to abiotic stress such as drought and salinity, favoring root development, photosynthetic efficiency and crop yield. In livestock applications, it improves digestion and feed conversion efficiency, supports weight gain and strengthens the immune system, while improving animal health.',
     },
     composition: [
       { name: 'Bacterias ácido lácticas spp', value: '20%' },

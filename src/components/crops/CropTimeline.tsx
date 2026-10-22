@@ -8,14 +8,13 @@ import type { Crop } from '@/data/crops';
 
 /** Color por producto, para que se lea de un vistazo en toda la página. */
 export const productColor: Record<string, string> = {
-  'full-power-50': '#7AC943',
-  'full-green-100': '#2E9B5C',
-  'bioguard': '#E28434',
-  'biomax-43': '#96A03A',
-  'bio-mulusk': '#B08A2E',
-  'biodyne-500': '#4692CD',
-  'seed-forte-4-0': '#CEA050',
-  'seed-forte-3-0': '#CEA050',
+  'vitalrush': '#7AC943',
+  'biondrive': '#2E9B5C',
+  'bioguard-2-0': '#E28434',
+  'biorazor': '#96A03A',
+  'biocore-360': '#4692CD',
+  'seed-power-4-0': '#CEA050',
+  'seed-power-3-0': '#CEA050',
 };
 
 function colorOf(slug: string | null) {

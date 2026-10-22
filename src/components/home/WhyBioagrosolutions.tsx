@@ -12,7 +12,7 @@ const POINTS: { key: string; Icon: LucideIcon }[] = [
   { key: 'sustainable', Icon: Recycle },
 ];
 
-export function WhyGreenScience() {
+export function WhyBioagrosolutions() {
   const t = useTranslations('why');
 
   return (

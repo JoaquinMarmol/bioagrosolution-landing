@@ -15,14 +15,13 @@ import { productColor } from '@/components/crops/CropTimeline';
 
 /** Orden de exhibición: alterna colores para que la rotación se sienta viva. */
 const ORDER = [
-  'full-power-50',
-  'bioguard',
-  'full-green-100',
-  'biomax-43',
-  'biodyne-500',
-  'seed-forte-4-0',
-  'bio-mulusk',
-  'seed-forte-3-0',
+  'vitalrush',
+  'bioguard-2-0',
+  'biondrive',
+  'biorazor',
+  'biocore-360',
+  'seed-power-4-0',
+  'seed-power-3-0',
 ];
 
 const CYCLE_MS = 4200;

@@ -4,7 +4,7 @@ import { ValuePillars } from '@/components/home/ValuePillars';
 import { ProcessSection } from '@/components/home/ProcessSection';
 import { CategoriesSection } from '@/components/home/CategoriesSection';
 import { FeaturedProducts } from '@/components/home/FeaturedProducts';
-import { WhyGreenScience } from '@/components/home/WhyGreenScience';
+import { WhyBioagrosolutions } from '@/components/home/WhyBioagrosolutions';
 import { CropsPlanner } from '@/components/home/CropsPlanner';
 import { FinalCTA } from '@/components/home/FinalCTA';
 
@@ -19,7 +19,7 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
       <CategoriesSection />
       <FeaturedProducts />
       <CropsPlanner />
-      <WhyGreenScience />
+      <WhyBioagrosolutions />
       <FinalCTA />
     </>
   );

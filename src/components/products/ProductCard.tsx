@@ -30,7 +30,7 @@ export function ProductCard({
       className="group flex h-full flex-col overflow-hidden rounded-2xl bg-white shadow-card ring-1 ring-ink/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-glow hover:ring-forest/20"
     >
       {/* Foto del envase */}
-      <div className="relative aspect-square overflow-hidden bg-gradient-to-b from-white to-cream">
+      <div className="relative aspect-[2/3] overflow-hidden bg-gradient-to-b from-white to-cream">
         <Image
           src={productImage(product)}
           alt={product.name}

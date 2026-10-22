@@ -76,7 +76,7 @@ export default async function LocaleLayout({
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: siteConfig.name,
-    legalName: 'Green Science',
+    legalName: 'Bioagrosolutions',
     slogan: siteConfig.tagline,
     url: `${siteConfig.url}/${locale}`,
     logo: `${siteConfig.url}/logo-color.png`,

@@ -1,5 +1,5 @@
 /**
- * Formateo de precios de la Línea Green Science.
+ * Formateo de precios de la Línea Bioagrosolutions.
  * Fuente única: `price` en src/data/products.ts (USD por litro, precio de catálogo).
  * Mantener sincronizado con Catalogo_Precios_Bidones_ConsumidorFinal.pdf.
  */

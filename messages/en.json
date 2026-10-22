@@ -1,6 +1,6 @@
 {
   "site": {
-    "name": "Green Science",
+    "name": "Bioagrosolutions",
     "tagline": "Living Soil Biotechnology"
   },
   "nav": {
@@ -97,14 +97,14 @@
   },
   "featured": {
     "eyebrow": "Our products",
-    "title": "The complete Green Science line",
-    "subtitle": "Eight bio-inputs to feed the soil, treat the seed and control pests and diseases.",
+    "title": "The complete Bioagrosolutions line",
+    "subtitle": "Seven bio-inputs to feed the soil, treat the seed and control pests and diseases.",
     "viewAll": "See technical sheets"
   },
   "why": {
     "eyebrow": "Living Soil Biotechnology",
     "title": "Living soil, strong crops",
-    "lead": "At Green Science we develop bio-inputs from living beneficial microorganisms. Our technology brings the soil back to life: it feeds it, balances its microflora and activates the plant’s natural defenses.",
+    "lead": "At Bioagrosolutions we develop bio-inputs from living beneficial microorganisms. Our technology brings the soil back to life: it feeds it, balances its microflora and activates the plant’s natural defenses.",
     "points": {
       "micro": {
         "title": "Beneficial microorganisms",
@@ -123,14 +123,14 @@
         "desc": "Clean production, fertile soil and yield season after season."
       }
     },
-    "cta": "Learn about Green Science"
+    "cta": "Learn about Bioagrosolutions"
   },
   "cta": {
     "title": "Ready for a more living soil?",
     "subtitle": "Let’s talk about your crop and build a biological plan tailored to you.",
     "primary": "Contact us now",
     "whatsapp": "Message on WhatsApp",
-    "whatsappMessage": "Hello Green Science, I’d like more information about your bio-inputs."
+    "whatsappMessage": "Hello Bioagrosolutions, I’d like more information about your bio-inputs."
   },
   "footer": {
     "tagline": "Microbial organic agricultural bio-inputs for living soils and sustainable farming.",
@@ -139,7 +139,7 @@
     "productsTitle": "Products",
     "contactTitle": "Contact",
     "rights": "All rights reserved.",
-    "senasag": "Biological products of microbial organic origin. BIO-MULUSK holds SENASAG Reg. No. 07-16428.",
+    "senasag": "Biological products of microbial organic origin.",
     "emergencyLabel": "Poisoning (Bolivia)"
   },
   "productsPage": {
@@ -174,13 +174,13 @@
     "ctaTitle": "Interested in {product}?",
     "ctaText": "Message us and an advisor will help you with the dose and application plan for your crop.",
     "ctaButton": "Ask about this product",
-    "whatsappMessage": "Hello Green Science, I’d like information about {product}.",
+    "whatsappMessage": "Hello Bioagrosolutions, I’d like information about {product}.",
     "relatedTitle": "Other products"
   },
   "casosPage": {
     "eyebrow": "Field results",
     "title": "Success stories",
-    "subtitle": "Real results from growers using the Green Science line: soybean, wheat, corn, rice, sorghum and livestock. What shows up in the field, told by those who applied it."
+    "subtitle": "Real results from growers using the Bioagrosolutions line: soybean, wheat, corn, rice, sorghum and livestock. What shows up in the field, told by those who applied it."
   },
   "casoDetail": {
     "back": "Back to cases",
@@ -199,12 +199,12 @@
     "relatedTitle": "More cases",
     "viewAll": "View all cases",
     "ctaButton": "Ask about this case",
-    "whatsappMessage": "Hello Green Science, I saw the \"{caso}\" case and would like more information."
+    "whatsappMessage": "Hello Bioagrosolutions, I saw the \"{caso}\" case and would like more information."
   },
   "about": {
     "eyebrow": "About",
     "title": "Living Soil Biotechnology",
-    "intro": "Green Science is the bio-input sub-line of Bioagrosolutions, a Bolivian company dedicated to the development, formulation and production of microbial organic agricultural bio-inputs. From Montero, Santa Cruz, we bring beneficial-microorganism technology to the field to build living soils and a more sustainable agriculture.",
+    "intro": "Bioagrosolutions is a Bolivian company dedicated to the development, formulation and production of microbial organic agricultural bio-inputs. From Montero, Santa Cruz, we bring beneficial-microorganism technology to the field to build living soils and a more sustainable agriculture.",
     "missionTitle": "Our mission",
     "missionText": "To offer effective biological alternatives to chemical inputs, improving soil health and farmer profitability without leaving toxic residues.",
     "approachTitle": "Our approach",
@@ -249,28 +249,28 @@
     "hours": "Mon to Fri, 8:00–18:00",
     "mapTitle": "How to get there",
     "emergencyLabel": "Poisoning (Bolivia)",
-    "whatsappMessage": "Hello Green Science, I’d like more information about your bio-inputs."
+    "whatsappMessage": "Hello Bioagrosolutions, I’d like more information about your bio-inputs."
   },
   "metadata": {
     "home": {
-      "title": "Green Science — Agricultural bio-inputs | Living Soil Biotechnology",
+      "title": "Bioagrosolutions — Agricultural bio-inputs | Living Soil Biotechnology",
       "description": "Microbial organic bio-inputs: biofertilizers, biostimulants, bioinsecticides and biofungicides. 100% biological, residue-free. Montero, Santa Cruz, Bolivia."
     },
     "products": {
       "title": "Products",
-      "description": "Green Science bio-input catalog: biostimulants, biofertilizers, bioinsecticides, biofungicides, seed treatment and livestock line."
+      "description": "Bioagrosolutions bio-input catalog: biostimulants, biofertilizers, bioinsecticides, biofungicides, seed treatment and livestock line."
     },
     "casos": {
       "title": "Success stories",
-      "description": "Real results with Green Science bio-inputs in soybean, wheat, corn, rice, sorghum and livestock in Bolivia. Situation, treatment and result of each case."
+      "description": "Real results with Bioagrosolutions bio-inputs in soybean, wheat, corn, rice, sorghum and livestock in Bolivia. Situation, treatment and result of each case."
     },
     "about": {
       "title": "About",
-      "description": "Green Science: living-soil biotechnology. Microbial organic bio-inputs from Montero, Santa Cruz, Bolivia."
+      "description": "Bioagrosolutions: living-soil biotechnology. Microbial organic bio-inputs from Montero, Santa Cruz, Bolivia."
     },
     "contact": {
       "title": "Contact",
-      "description": "Contact Green Science in Santa Cruz de la Sierra, Bolivia. Phone, WhatsApp and advice on bio-inputs."
+      "description": "Contact Bioagrosolutions in Santa Cruz de la Sierra, Bolivia. Phone, WhatsApp and advice on bio-inputs."
     }
   },
   "process": {

@@ -27,7 +27,7 @@ export function Footer() {
           <div className="max-w-sm">
             <Brand variant="onDark" className="h-10" />
             <p className="mt-4 text-xs font-semibold uppercase tracking-wider text-lime/90">
-              Línea Green Science · {t('parent')}
+              Bioagrosolutions
             </p>
             <p className="mt-4 text-sm leading-relaxed text-white/60">{t('tagline')}</p>
             <a

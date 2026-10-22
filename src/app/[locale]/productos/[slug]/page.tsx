@@ -83,7 +83,7 @@ export default function ProductDetailPage({
     name: product.name,
     description: pick(product.description, locale),
     category: categoryLabel,
-    image: `${siteConfig.url}/og-image.jpg`,
+    image: `${siteConfig.url}${productImage(product)}`,
     brand: { '@type': 'Brand', name: siteConfig.name },
     manufacturer: { '@type': 'Organization', name: siteConfig.name },
     ...(product.registration
@@ -137,7 +137,7 @@ export default function ProductDetailPage({
         <div className="grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:gap-12">
           {/* Columna izquierda: visual + ficha + CTA (sticky) */}
           <div className="lg:sticky lg:top-24 lg:self-start">
-            <div className="relative aspect-square overflow-hidden rounded-3xl bg-gradient-to-b from-white to-cream shadow-card ring-1 ring-ink/5">
+            <div className="relative aspect-[2/3] overflow-hidden rounded-3xl bg-gradient-to-b from-white to-cream shadow-card ring-1 ring-ink/5">
               <Image
                 src={productImage(product)}
                 alt={`${product.name} — ${pick(product.type, locale)}`}
