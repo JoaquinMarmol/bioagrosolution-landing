@@ -100,7 +100,7 @@ export function HeroShowcase() {
             className="relative"
           >
             <Image
-              src={`/products/thumb/${p.slug}.png`}
+              src={`/products/${p.slug}-white.png`}
               alt={p.name}
               width={300}
               height={420}

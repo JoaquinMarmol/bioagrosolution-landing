@@ -19,7 +19,7 @@ export function Hero() {
       {/* fondo mobile/tablet: la foto vertical detrás de todo el hero */}
       <div className="absolute inset-0 lg:hidden" aria-hidden>
         <Image
-          src="/hero/bidones-vertical.jpg"
+          src="/hero/bioagrosolutions-vertical.png"
           alt=""
           fill
           priority
@@ -40,7 +40,7 @@ export function Hero() {
       {/* foto de la línea completa como fondo (desktop) */}
       <div className="absolute inset-0 hidden lg:block" aria-hidden>
         <Image
-          src="/hero/bidones-horizontal.jpg"
+          src="/hero/bioagrosolutions-horizontal.png"
           alt=""
           fill
           priority

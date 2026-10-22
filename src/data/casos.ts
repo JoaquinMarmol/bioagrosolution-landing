@@ -420,7 +420,7 @@ export const casos: Caso[] = [
 /** Foto principal del caso. Si no hay fotos propias, cae a la foto del producto enlazado. */
 export function casoImage(caso: Caso): string {
   if (caso.imagenPrincipal) return `/casos/${caso.slug}/${caso.imagenPrincipal}`;
-  if (caso.productoSlugs[0]) return `/products/${caso.productoSlugs[0]}.jpg`;
+  if (caso.productoSlugs[0]) return `/products/${caso.productoSlugs[0]}-white.png`;
   return '/og-image.jpg';
 }
 

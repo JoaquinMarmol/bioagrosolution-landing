@@ -53,7 +53,7 @@ export function BidonThumb({
       style={{ backgroundColor: `${color}12` }}
     >
       <Image
-        src={`/products/thumb/${slug}.png`}
+        src={`/products/${slug}-white.png`}
         alt={alt}
         fill
         sizes="72px"

@@ -30,13 +30,13 @@ export function ProductCard({
       className="group flex h-full flex-col overflow-hidden rounded-2xl bg-white shadow-card ring-1 ring-ink/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-glow hover:ring-forest/20"
     >
       {/* Foto del envase */}
-      <div className="relative aspect-[2/3] overflow-hidden bg-gradient-to-b from-white to-cream">
+      <div className="relative aspect-[2/3] overflow-hidden bg-white">
         <Image
           src={productImage(product)}
           alt={product.name}
           fill
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 360px"
-          className="object-cover transition-transform duration-500 group-hover:scale-[1.04]"
+          className="object-contain transition-transform duration-500 group-hover:scale-[1.04]"
         />
         {product.featured ? (
           <span className="absolute left-4 top-4 inline-flex items-center gap-1 rounded-full bg-forest px-2.5 py-1 text-xs font-semibold text-white shadow-soft">

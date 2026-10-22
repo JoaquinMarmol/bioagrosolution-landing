@@ -278,9 +278,9 @@ export const products: Product[] = [
   },
 ];
 
-/** Ruta de la foto de producto (envase). Convención: /products/<slug>.jpg */
+/** Ruta de la foto de producto (envase). Convención: /products/<slug>-white.png */
 export function productImage(product: Product): string {
-  return `/products/${product.slug}.jpg`;
+  return `/products/${product.slug}-white.png`;
 }
 
 export function getProduct(slug: string): Product | undefined {

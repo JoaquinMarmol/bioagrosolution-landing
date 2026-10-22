@@ -137,14 +137,14 @@ export default function ProductDetailPage({
         <div className="grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:gap-12">
           {/* Columna izquierda: visual + ficha + CTA (sticky) */}
           <div className="lg:sticky lg:top-24 lg:self-start">
-            <div className="relative aspect-[2/3] overflow-hidden rounded-3xl bg-gradient-to-b from-white to-cream shadow-card ring-1 ring-ink/5">
+            <div className="relative aspect-[2/3] overflow-hidden rounded-3xl bg-white shadow-card ring-1 ring-ink/5">
               <Image
                 src={productImage(product)}
                 alt={`${product.name} — ${pick(product.type, locale)}`}
                 fill
                 priority
                 sizes="(max-width: 1024px) 100vw, 460px"
-                className="object-cover"
+                className="object-contain"
               />
             </div>
 

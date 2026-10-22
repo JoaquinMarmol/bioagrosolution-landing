@@ -246,7 +246,7 @@ export default function CasoDetailPage({
                   >
                     <span className="relative h-12 w-12 shrink-0 overflow-hidden rounded-xl bg-cream">
                       <Image
-                        src={`/products/${p.slug}.jpg`}
+                        src={`/products/${p.slug}-white.png`}
                         alt={p.name}
                         fill
                         sizes="48px"
